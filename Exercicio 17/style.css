@@ -1,0 +1,10 @@
+@charset 'UTF-8' ;
+*{
+    height: 100%;
+}
+body {
+background-image: linear-gradient(to bottom,#4040BF,#7C3EB6,#C63185,#EE5447,#FED676
+
+);
+    font-family: Lemon Milk;
+}

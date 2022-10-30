@@ -1,0 +1,28 @@
+:root {
+    --cor-dobackground: #C8FDD8;
+    --cor-do-fundo-do-cabeçario:#10321b;
+    --cor-do-cabeçario:#f3fff6;
+}
+Body {
+    background-color:var(--cor-dobackground) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Cabecario { 
+    background-color:var(--cor-do-fundo-do-cabeçario) ;
+    color: var(--cor-do-cabeçario);
+    text-align: center;
+    width: fit-content;
+
+}
+.Basico{
+    color: #3D7D50;
+}
+.Intermediario { color: #7b7d3d
+
+}
+.Avancado {
+    color: #7d3d3d;
+}
+h1 {
+    color: var(--cor-do-fundo-do-cabeçario);
+}

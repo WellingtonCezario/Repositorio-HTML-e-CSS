@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Teste com imagens.</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body> 
+   
+    <style>  
+
+   
+
+    </style>
+    <h1>Testando carga e imagens.</h1>
+    <hr color="black">
+    <br>
+ <p> <strong>Abaixo você vai ver uma imagem que está na mesma pasta.</p>
+<div class = 'centralize'>
+     <div id = 'HtmlLogo'>
+        <img src="Html5.png" alt="" srcset="">
+
+
+     </div>
+    
+    
+    </div>
+ <p>Podemos também carregar imagens que estão em sub-pastas.</p>
+ 
+ <div class ='Centralizador2'>
+<div id ='Css3'>
+    <img id = 'imagem1' src="imagens/css3.png" alt="" onclick = 'changeImage ( )'>
+</div>
+
+
+ </div>
+ <p>Tambem podemos carregar imagens externas.</p>
+<style>
+   
+</style>
+</body> 
+
+<script>
+function changeImage ( ){ 
+    var ChangeImage = document.getElementById ('imagem1')
+    if (ChangeImage.src. match('imagens/css3.png')){
+        ChangeImage.src = 'imagens/dio.png'
+    } else {
+    ChangeImage.src = 'imagens/css3.png'
+    }
+
+}
+</script>
