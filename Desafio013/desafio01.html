@@ -6,33 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        caption {
+            background-color: yellow;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       table { margin: auto;
+        vertical-align: middle;
+        margin-top: 120px;
+        border-collapse: collapse;
+       }
+       th { padding: 30px;
+        background-color: rgb(150, 52, 52);
+       }
         tr {
             border: 1px solid black;
         }
-         td {
+         td { padding: 25px;
+            background-color: rgba(128, 128, 128, 0.43);
             border: 1px solid black;
         }
+        table, thead, tbody, caption, td, th  { box-shadow: inset 3px 5px 7px 0px #00000069;
+            
+        }
+      
     </style>
 </head>
 <body>
     <table>
+        <caption>
+            <strong>Desafio 013 parte 1</strong>
+        </caption>
         <thead>
-
+<tr>
+    <th colspan="4">
+        Exemplo de tabela do desafio 013
+    </th>
+</tr>
         </thead>
-    </table>
+   
     <tbody>
         <tr>
             <td>1</td>
+            <td>2</td>
+            <td rowspan= "2">3</td>
+            <td>4</td>
         </tr>
         <tr>
-    <td>2</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
         </tr>
         <tr>
-            <td>3</td>
+            <td colspan="3">8</td>
+            <td>9</td>
         </tr>
-        <td colspan="2">
-            4
-        </td>
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
     </tbody>
 </body>
 </html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    table { width: 900px;
+        height: 250px;
+        font-family: Lemon Milk;
+        font-weight:600;
+        margin: auto;
+        margin-top: 50px;
+        border-collapse: collapse;
+    }
+    tr, td {
+        border: 1px solid black;
+    }
+    td { text-align: center;
+        padding: 2px;
+    }
+   th {
+    padding: 20px;
+    background-color: rgba(138, 2, 2, 0.545);
+   }
+   caption {
+    padding: 30px;
+    border: 1px solid black;
+    background-color: rgba(223, 223, 0, 0.451);
+   }
+</style>
+</head>
+<body>
+    <table>
+        <caption>
+            Exercicio 013
+        </caption>
+        <thead>
+            <tr>
+                <th colspan="5">Tabela 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4" id="letra-b">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4" id="letra-c">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4">N</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
