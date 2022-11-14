@@ -6,33 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
-  
-
+       
+        body {
+            font-family: Lemon Milk;
+        }
+table { margin: auto;
+    width: 600px;
+}
+ 
+.principal{background-color: rgb(73, 73, 73);
+    padding: 8px;
+    color: rgb(255, 255, 255);
+}
 th, tr,td,table { border-collapse: collapse;
     border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
 }
-
-
+header > h1 { padding: 30px;
+    margin: auto;
+    display: inline;
+}
+header { text-align: center;
+    margin: auto;
+    padding: 40px;
+}
     </style>
 </head>
 <body>
-    <h1>
-        Desafio número 4:
-    </h1>
+    
+        <header> 
+            <h1 id="Titulo">
+                Desafio número 4:
+            </h1>
+        </header>
     <table>
 <thead>
     <tr>
-        <th>Área</th>
-        <th>Disciplinas</th>
-        <th>Notas</th>
-        <th>Média</th>
+        <th class="principal" rowspan="2">Área</th>
+        <th class="principal" rowspan="2">Disciplinas</th>
+        <th class="principal" colspan="2">Notas</th>
+        <th class="principal" rowspan="2">Média</th>
     </tr>
     <tr>
-        <th>Nota 1</th>
-        <th>Nota 2</th>
+        <th class="principal">Nota 1</th>
+        <th class="principal">Nota 2</th>
     </tr>
 </thead>
+<tbody>
+    <tr>
+        <th rowspan="4">Exatas</th>
+        <td>Matemática</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+    </tr>
+    <tr>
+        <td>Física</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+    </tr>
+    <tr>
+        <td>Quimíca</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+    </tr>
+    <tr>
+        <td>Biologia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+    </tr>
+    <tr>
+        <th class="principal" colspan="4">Média de exatas</th>
+    <th class="principal">0.0</th>
+    </tr>
+    <tr>
+        <th rowspan="2"> Humanas</th>
+        <td>História</td>
+        <td>0.0</td>
+        <td>0.0</td>
+       <td>0.0</td> 
+    </tr>
+    <tr>
+        <td>Geografia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+    </tr>
+    <tr>
+        <th class="principal" colspan="4"> Média de Humans</th>
+        <th class="principal">0.0</th>
+    </tr>
+</tbody>
     </table>
 </body>
 </html>

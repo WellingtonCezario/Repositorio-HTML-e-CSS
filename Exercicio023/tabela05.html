@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+body { text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+table { margin: auto;
+    border-collapse: collapse;
+    width: 500px;
+}
+caption{
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+th, td { 
+    border: 1px solid black;
+}
+.Parte1 {
+    background-color: yellow;
+}
+.Parte2 {
+    background-color: red;
+}
+.Parte3 {
+    background-color: green;
+}
+</style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+        <col class="Parte1" span="1">
+        <col class="Parte2" span="2">
+        <col class="Parte3" span="1">
+        
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Julio Cesar</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Artista</td>
+        </tr>
+        <td>Tulio Márcio</td>
+        <td>M</td>
+        <td>24</td>
+        <td>Streamer</td>
+        <tr>
+            <td>Joana Barbosa</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Bartender</td>
+
+        </tr>
+        <tr>
+            <td>Marcelo Vieira</td>
+            <td>M</td>
+            <td>48</td>
+            <td>Pedreiro</td>
+        </tr>
+        <tr>
+            <td>Juliana Baptista</td>
+            <td>F</td>
+            <td>38</td>
+            <td>Musicista</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
