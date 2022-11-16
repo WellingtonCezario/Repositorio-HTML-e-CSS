@@ -1,0 +1,19 @@
+* {
+    margin: 0px ;
+    padding: 0px;
+}
+body { background-size: cover;
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+}
+#Fundo { padding: auto;
+margin: auto;
+display: block;
+height: 50vh;
+
+margin-top: 90px;
+}
+#Iphone { padding: auto;
+    margin: 10px 100px;
+    display: inline;
+    margin-bottom: 40px;
+}
