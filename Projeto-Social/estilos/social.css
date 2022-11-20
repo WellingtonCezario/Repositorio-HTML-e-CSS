@@ -22,7 +22,6 @@ a { transition: 1.5s;
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    
 }
 a:hover { font-size: 1.1em;
     background-size: 105%;
