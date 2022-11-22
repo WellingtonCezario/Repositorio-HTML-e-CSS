@@ -1,0 +1,112 @@
+:root {--cor-do-texto-do-cabecario:rgb(255, 238, 0);
+    --cor-do-fundo-do-cabecario: rgb(140, 52, 151);
+    --cor-do-fundo-do-site:rgb(74, 179, 173) ;
+    --cor-dos-links-com-hover:rgb(34, 221, 143);
+    --cor-do-fundo-dos-links-com-hover:rgb(141, 83, 136);
+    --cor-do-fundo-do-formulario:rgb(255, 255, 255);
+}
+* {
+    margin: 0px;
+font-family: Lemon Milk, Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+h1 { text-align: center;
+    color:var(--cor-do-texto-do-cabecario) ;
+    font-size: 2.2em;
+    padding: 40px;
+    box-shadow: 1px 1px 1px 1px solid black;
+    background-color:var(--cor-do-fundo-do-cabecario) ;
+}
+body,main { background-size: cover;
+    background-color:var(--cor-do-fundo-do-site) ;
+}
+#links-das-redes-sociais {
+    padding: 20px;
+    background-color: var(--cor-do-fundo-do-cabecario);
+}
+.linkzim { color: var(--cor-do-texto-do-cabecario);
+text-decoration: none;
+font-weight: bolder;
+border: 1px solid gray;
+   margin: 10px 155px;
+   padding: 10px;
+}
+.linkzim:hover { transition: 1s;
+    border: 1px solid yellow;
+    background-color: var(--cor-do-fundo-dos-links-com-hover);
+    color: var(--cor-dos-links-com-hover);
+}
+#formulario { display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    border-radius: 10%;
+    height: 400px;
+    background-color: var(--cor-do-fundo-do-formulario);
+}
+.caixas-de-texto { font-weight: bolder;
+    text-align: justify;
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px;
+}
+#inome {
+    margin: 50px 0px;
+}
+#isenha {
+    margin: 50px 0px;
+}
+.inputs { margin-top: 0px;
+margin-top: -1000px;
+    width: 100px;
+}
+form#caixas-de-texto >.inputs {
+    text-align: top;
+    padding: 120px;
+}
+#botao { margin: 0px 130px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+}
+#botao:hover { border-radius: 2px;
+    transition: 1.5s;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: var(--cor-do-texto-do-cabecario);
+}
+#githibo { width: 180px;
+   margin-top: 120px;
+    height: 180px;
+ border-radius: 50%;
+ position: relative;
+ display: inline;
+bottom: 20px;
+right: 60px;
+
+}
+.labels {
+    width: 200px;
+}
+header { display: block;
+    box-shadow: 10px 10px 10px 10px solid black;
+}
+nav { display: block;
+    box-shadow: 10px 10px 10px 10px solid black;
+}
+p { width: 200px;
+    
+    position: relative;
+    display: inline-block;
+    padding: 1px 1px;
+}
+.frase {left: 40px;
+    
+    padding: 5px;
+    position: relative;
+    text-align: top;
+    background-color: rgba(128, 128, 128, 0.164);
+    bottom:200px;
+    
+}
