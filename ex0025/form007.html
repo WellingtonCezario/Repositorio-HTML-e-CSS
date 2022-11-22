@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário.</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <fieldset>
+        <legend style="margin:auto;">Seu Estado:</legend>
+        <form action="cadasttro.php">
+            <p>
+                <label for="iest">
+                    <select name="estado" id="iest">
+                        <option value="Minas Gerais"> MG
+                        </option>
+                        <option value="São Paulo">      SP
+                        </option>
+                        <option value="Rio Grande do Sul"> RS
+                       </option>
+                       <option value="Bahia"> BA
+                       </option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label for="iprof">Profissão:
+                    <input type="text" name="profissao" id="iprof" list="lstprof">
+                    <datalist id="lstprof">
+                        <optgroup label="profisões importantes">
+                            <option value="Prof">Professor</option>
+                            <option value="DEV">Desenvolvedor</option>
+                        </optgroup>
+                        <option value="COZ">Cozinheiro</option>
+                        <option value="Bar">Barman</option>
+                    </datalist>
+                </label>
+            </p>
+            <p>
+                <label for="imsg">Mensagem:
+                    <br>
+                    <textarea name="msg" id="imsg" cols="60" rows="10"></textarea>
+                </label>
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </form>
+    </fieldset>                                 
+</body>         
+</html>                                                 
