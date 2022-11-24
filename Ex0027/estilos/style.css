@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/*Versão Mobile-First*/
+* { font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1.3em;
+}
+header {
+    background-color: gray;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+h1 {
+    background-color: rgb(114, 114, 114);
+    border-radius: 20px;
+    width: 700px;
+    color: white;
+    margin: auto;
+}
+nav > ul > div#menuzim{ background-color: rgb(54, 54, 54);
+    display: inline-block;
+    font-size: 15px;
+    box-shadow: 2px 1px 6px 1px black;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+   
+}
+nav { text-align: center;
+    padding: 20px;
+background-color: gray;
+}
+a {
+      color: white;;
+}
+body { background-size: cover;
+    background-color: rgb(230, 230, 230);
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+main { display: block;
+    margin: auto;
+    margin-top: 20px;
+   width: 80vw;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+h2 { color: black;
+    text-align: center;
+    font-size: 0.9em;
+}
+ #burguer { text-align: left;
+    margin: 0px;
+    display: block;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    width: fit-content;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 0.5em;
+}
+@media screen and (min-width:400px) and (max-width:768px) {
+h1 {
+    width: 400px;
+    font-size: 1.1em;
+}
+
+nav {
+    display: none;
+}
+#burguer { display: block;
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+   border-radius:10px ;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+#burguer:hover { cursor: pointer;
+    background-color: white;
+    color: black;
+}
+}
