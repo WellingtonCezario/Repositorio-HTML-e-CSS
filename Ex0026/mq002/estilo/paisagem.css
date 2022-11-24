@@ -1,2 +1,7 @@
 @charset "UTF-8";
-/*Modo Paisagem
+/*Modo Paisagem*/
+body {
+    background-position: left bottom;
+    transition: 1.2s;
+    background-image: url(../imagens/cev-landscape.jpg);
+}
